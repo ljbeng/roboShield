@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map LJB roboShield
+#######################################
+
+#######################################
+# Datatypes	(KEYWORD1)
+#######################################
+
+roboShield	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+drive	KEYWORD2
+brake	KEYWORD2
+standby	KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+forward	KEYWORD2
+back	KEYWORD2
+resetDevices	KEYWORD2
+init	KEYWORD2
+setPWMFrequency	KEYWORD2
+setChannelOn	KEYWORD2
+setChannelOff	KEYWORD2
+setChannelPWM	KEYWORD2
+setChannelsPWM	KEYWORD2
+setAllChannelsPWM	KEYWORD2
+getChannelPWM	KEYWORD2

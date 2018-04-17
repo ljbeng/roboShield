@@ -1,2 +1,3 @@
 # roboShield
 Arduino Library for roboShield, a shield that uses 2 pins to control 8 servos and 2 motors...
+An option Vstamp Text to Speech module can be easily attached to output Natural Text to Speech.  Messages are simply sent out a software Serial port (pin 6, 7)

@@ -20,6 +20,12 @@
     Forked by NachtRaveVL, July 29th, 2016.
 
     PCA9685-Arduino - Version 1.2.10
+	
+	Recreated by Luke Barker to add TB6612FNG functionality when using the roboShield
+	the TB6612 is connected to PWM 9-15.  This library uses the full on and full off 
+	to set the digital lines for the direction and braking then uses the PWM for the 
+	motor speeds.  Version 1.0.0
+	
 */
 
 #ifndef PCA9685_H

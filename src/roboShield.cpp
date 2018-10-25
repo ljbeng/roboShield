@@ -85,14 +85,14 @@ roboShield::roboShield(PCA9685_PhaseBalancer phaseBalancer, int In1pin, int enMo
   _isProxyAddresser = false;
   _lastI2CError = 0;
 
-  if (enMotor == 1){//enables motor PWM and Digital Pins
+  if (enMotor == 2){//enables motor PWM and Digital Pins
 	  In1 = AIN1;
 	  In2 = AIN2; 
 	  PWM = PWMA;
 	  Offset = 1.0;
 	  Standby = STBY;
   }
-  if (enMotor == 2){
+  if (enMotor == 1){
 	  In1 = BIN1;
 	  In2 = BIN2; 
 	  PWM = PWMB;
